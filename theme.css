@@ -1,0 +1,44 @@
+* {
+  cursor: default;
+  -moz-user-select: none;
+}
+/* Body */
+body {
+  background: #00ceff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Center everything */
+div {
+  margin: auto;
+}
+
+/* Spacers */
+.spacer,
+.content * {
+  flex: 1;
+}
+
+/* Content container */
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Text */
+.content span {
+  color: white;
+  font: bold 12vh ITC Avant Garde Gothic Std;
+  text-transform: uppercase;
+}
+
+/* Logo */
+img {
+  margin: auto;
+  width: 50vh;
+}
